@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <h1>サンプル</h1>
+
+  <div>
+    <!-- TAB CONTROLLERS -->
+    <input id="panel-1-ctrl" class="panel-radios" type="radio" name="tab-radios" checked>
+    <input id="panel-2-ctrl" class="panel-radios" type="radio" name="tab-radios">
+    <input id="panel-3-ctrl" class="panel-radios" type="radio" name="tab-radios">
+
+    <!-- TABS LIST -->
+    <ul id="tabs-list">
+        <!-- MENU TOGGLE -->
+        <li id="li-for-panel-1">
+          <label class="panel-label" for="panel-1-ctrl">Tab1</label>
+        </li>
+        <li id="li-for-panel-2">
+          <label class="panel-label" for="panel-2-ctrl">Tab2</label>
+        </li>
+        <li id="li-for-panel-3">
+          <label class="panel-label" for="panel-3-ctrl">Tab3</label>
+        </li>
+    </ul>
+
+    <!-- THE PANELS -->
+    <article id="panels">
+      <div class="container">
+        <section id="panel-1">
+          <main>
+            <p>Content1</p>
+          </main>
+        </section>
+        <section id="panel-2">
+          <main>
+            <p>Content2</p>
+          </main>
+        </section>
+        <section id="panel-3">
+          <main>
+            <p>Content3</p>
+          </main>
+        </section>
+      </div>
+    </article>
+  </div>
+</body>
+</html>
